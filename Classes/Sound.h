@@ -1,0 +1,89 @@
+#pragma once
+#include "AudioEngine.h"
+#include "cocos2d.h"
+
+class Sound
+{
+public:
+	void MainTheme();
+	void StopMainTheme();
+	void MenuClick();
+	void ChDead();
+	void EliteTheme();
+	void StopEliteTheme();
+	void BottomTheme();
+	void StopBottomTheme();
+	void PauseBottomTheme();
+	void ResumeBottomTheme();
+	void BlackAttack();
+	void BreakDefend();
+	void Buff();
+	void DrawCardSound();
+	void CardSelect();
+	void EndTurn();
+	void AttackSound();
+	void HeavyAttackSound();
+	void GetDefend();
+	void GetGold();
+	void ChAttack();
+	void OpenMap();
+	void MapClick();
+	void BattelStartMonster();
+	void BattelStartBoss();
+	void CampFire();
+	void StopCampFire();
+	void BossTheme();
+	void StopBossTheme();
+	void EndingTheme();
+	void StopEndingTheme();
+	void Victory();
+	void ViewDeck();
+	void SlimeAtk();
+	void ButcherAtk();
+	void DaggerAtk();
+	void ScimitarAtk();
+	void SwordAtk();
+	void EnemyTurn();
+	void PlayerTurn();
+	void Debuff();
+	void SetBackGround_volume();
+	void SetEffect_volume();
+
+	float background_volume;
+	float effect_volume;
+
+private:
+	int maintheme;
+	int menuclick;
+	int chdead;
+	int elitetheme;
+	int bottomtheme;
+	int blackattack;
+	int breakdefend;
+	int buff;
+	int drawcard;
+	int cardselect;
+	int endturn;
+	int attacksound;
+	int heavyattacksound;
+	int getdefend;
+	int getgold;
+	int chattack;
+	int openmap;
+	int mapclick;
+	int battelstartmonster;
+	int battelstartboss;
+	int campfire;
+	int bosstheme;
+	int endingtheme;
+	int victory;
+	int viewdeck;
+	int slimeatk;
+	int butcheratk;
+	int daggeratk;
+	int scimitaratk;
+	int swordatk;
+	int enemyturn;
+	int playerturn;
+	int debuff;
+};
